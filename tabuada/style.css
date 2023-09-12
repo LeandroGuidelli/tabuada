@@ -1,0 +1,24 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+#btn {
+    border-radius: 5px;
+    box-shadow: 5px 4px #000000;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(134, 129, 129);
+    color: rgb(255, 255, 255);
+}
+
+button:active {
+    box-shadow: 3px 2px #000000;
+}
+
+button:hover {
+    background-color: #c0c0c0;
+    box-shadow: 5px 4px #000000;
+}
